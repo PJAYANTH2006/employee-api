@@ -129,6 +129,11 @@ class EmployeeController {
 
     // --- REST ENDPOINTS ---
 
+    /**
+     * Retrieves all employees from the system
+     * 
+     * @return List of all employee records
+     */
     @GetMapping
     public List<Employee> getAllEmployees() {
         return employeeList;
