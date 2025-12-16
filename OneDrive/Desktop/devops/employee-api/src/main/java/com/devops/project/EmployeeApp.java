@@ -25,6 +25,12 @@ public class EmployeeApp {
 }
 
 // 2. The Data Model
+/**
+ * Employee entity representing employee information
+ * 
+ * @author DevOps Team
+ * @version 1.0
+ */
 class Employee {
     private String id;
     private String name;
